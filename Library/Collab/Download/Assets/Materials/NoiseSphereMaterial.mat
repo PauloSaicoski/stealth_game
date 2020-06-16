@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NoiseSphereMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: d17039a311d41b84dbbb7be61e7f8f8b,
+    type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_3AB372AD:
+        m_Texture: {fileID: 2800000, guid: a10a2432213cf024ca445a25487c3db7, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_52A7706C:
+        m_Texture: {fileID: 2800000, guid: b86eb85a1a8878848a89ed43768f59a3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalFromTexture_7D6385F5_Texture_0:
+        m_Texture: {fileID: 2800000, guid: 21655350bcc9f0e47bcbb157a338f894, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_883B55DF_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 4dbd483a8ad009f4bacc8eb40d48ce57, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_A9ABC924_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 21655350bcc9f0e47bcbb157a338f894, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_197C8084: 8
+    - Vector1_35B4FCFC: 3.5
+    - Vector1_5128A57D: 0.1
+    - Vector1_5CFAA014: 0.53
+    - Vector1_7A8B1583: 2.69
+    - Vector1_97A7EE46: 277.26
+    - Vector1_DB6293F: 23.16
+    - Vector1_FF4F904F: 0.05
+    m_Colors:
+    - Color_A28F8A0B: {r: 0, g: 0.34183836, b: 1, a: 1}
+    - Vector2_56DD3998: {r: 0.1, g: 0, b: 0, a: 0}
+    - Vector2_584B85B: {r: 5, g: 5, b: 0, a: 0}
+    - Vector2_79582C83: {r: 5, g: 10, b: 0, a: 0}
+    - Vector2_F587DCF9: {r: 0.1, g: 0.1, b: 0, a: 0}
